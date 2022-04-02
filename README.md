@@ -7,6 +7,7 @@
     <li><a href="hard.html">Maths: Hard</a></li>
     <li><a href="extremely_tricky.html">Maths: Extremely Tricky</a></li>
     <li><a href="patterns.html">Maths: Patterns</a></li>
+    <li><a href="binary_converter.html">Binary Converter</a></li>
 </ul>
 
 <p>Hello welcome to my website that is all about maths and climate change!</p>
