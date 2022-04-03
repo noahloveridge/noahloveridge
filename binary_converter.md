@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>
@@ -14,8 +13,10 @@
         </script>
     </head>
     <body>
+        <div style="background-color: orange; ">
         <p>this is my binary converter</p>
         <input id="decimalInput" type="number" />
         <button onclick="dTob();">convert</button>
+        </div>
     </body>
 </html>
