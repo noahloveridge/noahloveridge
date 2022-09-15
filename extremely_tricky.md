@@ -16,7 +16,7 @@
 
 11x trick
 
-Exanple:
+Example:
 
 <pre>
   43
