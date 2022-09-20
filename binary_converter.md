@@ -10,7 +10,7 @@
                 var binaryOutput = Number(decimalInput).toString(2);
                 alert(binaryOutput);
             }
-            function dToH(){
+            function dToh(){
                 //alert('hello');
                 var decimalInput = document.getElementById('decimalInput').value;
                 var hexOutput = Number(decimalInput).toString(16);
