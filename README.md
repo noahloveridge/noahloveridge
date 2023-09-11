@@ -9,6 +9,7 @@
     <li><a href="patterns.html">Maths: Patterns</a></li>
     <li><a href="binary_converter.html">Binary Converter</a></li>
     <li><a href="noughts_and_crosses.html">Noughts and Crosses Game</a></li>
+    <li><a href="maths_quiz.html">Maths Quiz</a></li>
 </ul>
 
 <p>Hello welcome to my website that is all about maths and climate change!</p>
