@@ -41,7 +41,7 @@ There are three levels. Which one are you going to choose?
     (currentQuestion, questionNumber) => {
 
     // only render questions for the selected level
-    if ( ${currentQuestion.level} != document.querySelector('input[name="quiz_level"]:checked').value ) { return; }
+    if ( currentQuestion.level != document.querySelector('input[name="quiz_level"]:checked').value ) { return; }
       
       // variable to store the list of possible answers
       const answers = [];
