@@ -79,6 +79,9 @@ There are three levels. Which one are you going to choose?
     // for each question...
     myQuestions.forEach((currentQuestion, questionNumber) => {
 
+    // only render questions for the selected level
+    if ( currentQuestion.level != document.querySelector('input[name="quiz_level"]:checked').value ) { return; }
+      
       // find selected answer
       const answerContainer = answerContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
