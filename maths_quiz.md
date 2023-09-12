@@ -1,26 +1,9 @@
 <style>
-  .question{
-  	font-weight: 600;
-  }
   .answers {
     margin-bottom: 20px;
   }
   .answers label{
     display: block;
-  }
-  #submit{
-  	font-family: sans-serif;
-  	font-size: 20px;
-  	background-color: #279;
-  	color: #fff;
-  	border: 0px;
-  	border-radius: 3px;
-  	padding: 20px;
-  	cursor: pointer;
-  	margin-bottom: 20px;
-  }
-  #submit:hover{
-  	background-color: #38a;
   }
 </style>
 
@@ -54,8 +37,12 @@ There are three levels. Which one are you going to choose?
 
     // for each question...
     myQuestions.forEach(
+    
     (currentQuestion, questionNumber) => {
 
+    // only render questions for the selected level
+    if ( ${currentQuestion.level } != document.querySelector('input[name="quiz_level"]:checked').value ) { continue; }
+      
       // variable to store the list of possible answers
       const answers = [];
 
@@ -121,6 +108,7 @@ There are three levels. Which one are you going to choose?
   const submitButton = document.getElementById('submit');
   const myQuestions = [
   {
+    level: "easy",
     question: "What is 7 * 9?",
     answers: {
       a: "79",
@@ -130,6 +118,7 @@ There are three levels. Which one are you going to choose?
     correctAnswer: "c"
   },
   {
+    level: "easy",
     question: "What is 12 * 11?",
     answers: {
       a: "144",
@@ -139,6 +128,7 @@ There are three levels. Which one are you going to choose?
     correctAnswer: "b"
   },
   {
+    level: "medium",
     question: "What is 13 * 13?",
     answers: {
       a: "244",
