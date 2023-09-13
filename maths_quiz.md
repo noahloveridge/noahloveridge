@@ -22,7 +22,7 @@ There are three levels. Which one are you going to choose?
 <input type="radio" id="level_hard" name="quiz_level" value="hard">
 <label for="level_hard">Hard</label><br>
 
-<hr>
+<button id="start_quiz_btn">Start Quiz</button>
 
 <div id="quiz"></div>
 <button id="submit">Submit Quiz</button>
@@ -31,6 +31,11 @@ There are three levels. Which one are you going to choose?
 <script id="rendered-js" >
 (function () {
   function buildQuiz() {
+
+    // disable level selector radio buttons when the quiz starts
+    document.getElementById('level_easy').disabled = true;
+    document.getElementById('level_medium').disabled = true;
+    document.getElementById('level_hard').disabled = true;
     
     // variable to store the HTML output
     const output = [];
@@ -109,6 +114,7 @@ There are three levels. Which one are you going to choose?
   const quizContainer = document.getElementById('quiz');
   const resultsContainer = document.getElementById('results');
   const submitButton = document.getElementById('submit');
+  const startQuizButton = document.getElementById('start_quiz_btn');
   const myQuestions = [
   {
     level: "easy",
@@ -143,9 +149,10 @@ There are three levels. Which one are you going to choose?
   }];
 
   // Kick things off
-  buildQuiz();
+  // buildQuiz();
 
   // Event listeners
   submitButton.addEventListener('click', showResults);
+  startQuizButton.addEventListener('click', buildQuiz);
 })();
 </script>
