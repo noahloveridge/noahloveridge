@@ -143,6 +143,8 @@ There are three levels. Which one are you going to choose?
       a: "30",
       b: "29",
       c: "21"
+    },
+    correctAnswer: "b"
   },
   {
     level: "easy",
@@ -151,15 +153,17 @@ There are three levels. Which one are you going to choose?
       a: "188",
       b: "80",
       c: "180"
+    },
     correctAnswer: "c"
- },
+  },
  {
     level: "easy",
     question: "What is 1 * 60?",
     answers: {
-      a: "56",
+      a: "54",
       b: "60",
       c: "79"
+    },
     correctAnswer: "b"
   },
   {
@@ -169,6 +173,7 @@ There are three levels. Which one are you going to choose?
       a: "56",
       b: "90",
       c: "60"
+    },
     correctAnswer: "a"
   },
   {
