@@ -137,6 +137,41 @@ There are three levels. Which one are you going to choose?
     correctAnswer: "b"
   },
   {
+    level: "easy",
+    question: "What is 60-29?",
+    answers: {
+      a: "30",
+      b: "29",
+      c: "21"
+  },
+  {
+    level: "easy",
+    question: "What is 120+60?",
+    answers: {
+      a: "188",
+      b: "80",
+      c: "180"
+    correctAnswer: "c"
+ },
+ {
+    level: "easy",
+    question: "What is 1 * 60?",
+    answers: {
+      a: "56",
+      b: "60",
+      c: "79"
+    correctAnswer: "b"
+  },
+  {
+    level: "medium",
+    question: "What is 27 * 2?",
+    answers: {
+      a: "56",
+      b: "90",
+      c: "60"
+    correctAnswer: "a"
+  },
+  {
     level: "medium",
     question: "What is 13 * 13?",
     answers: {
