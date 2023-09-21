@@ -45,9 +45,6 @@ There are three levels. Which one are you going to choose?
     
     (currentQuestion, questionNumber) => {
 
-    // only render questions for the selected level
-    if ( currentQuestion.level != document.querySelector('input[name="quiz_level"]:checked').value ) { return; }
-      
       // variable to store the list of possible answers
       const answers = [];
 
@@ -83,10 +80,7 @@ There are three levels. Which one are you going to choose?
 
     // for each question...
     myQuestions.forEach((currentQuestion, questionNumber) => {
-
-    // only render questions for the selected level
-    if ( currentQuestion.level != document.querySelector('input[name="quiz_level"]:checked').value ) { return; }
-      
+  
       // find selected answer
       const answerContainer = answerContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
@@ -115,7 +109,21 @@ There are three levels. Which one are you going to choose?
   const resultsContainer = document.getElementById('results');
   const submitButton = document.getElementById('submit');
   const startQuizButton = document.getElementById('start_quiz_btn');
-  const myQuestions = [
+
+  let myQuestions;
+  
+  switch ( document.querySelector('input[name="quiz_level"]:checked').value ) {
+    case "easy":
+      myQuestions = easyQuestions;
+      break;
+    case "medium":
+      myQuestions = mediumQuestions;
+      break;
+    case "hard":
+      myQuestions = hardQuestions;
+  }
+  
+  const easyQuestions = [
   {
     level: "easy",
     question: "What is 7 * 9?",
@@ -165,7 +173,9 @@ There are three levels. Which one are you going to choose?
       c: "79"
     },
     correctAnswer: "b"
-  },
+  }];
+
+  const mediumQuestions = [
   {
     level: "medium",
     question: "What is 27 * 2?",
@@ -186,6 +196,18 @@ There are three levels. Which one are you going to choose?
       d: "194"
     },
     correctAnswer: "b"
+  }];
+
+  const hardQuestions = [
+  {
+    level: "hard",
+    question: "What is 7 * 9?",
+    answers: {
+      a: "79",
+      b: "69",
+      c: "63"
+    },
+    correctAnswer: "c"
   }];
 
   // Kick things off
