@@ -109,19 +109,6 @@ There are three levels. Which one are you going to choose?
   const resultsContainer = document.getElementById('results');
   const submitButton = document.getElementById('submit');
   const startQuizButton = document.getElementById('start_quiz_btn');
-
-  let myQuestions;
-  
-  switch ( document.querySelector('input[name="quiz_level"]:checked').value ) {
-    case "easy":
-      myQuestions = easyQuestions;
-      break;
-    case "medium":
-      myQuestions = mediumQuestions;
-      break;
-    case "hard":
-      myQuestions = hardQuestions;
-  }
   
   const easyQuestions = [
   {
@@ -210,6 +197,19 @@ There are three levels. Which one are you going to choose?
     correctAnswer: "c"
   }];
 
+  let myQuestions;
+  
+  switch ( document.querySelector('input[name="quiz_level"]:checked').value ) {
+    case "easy":
+      myQuestions = easyQuestions;
+      break;
+    case "medium":
+      myQuestions = mediumQuestions;
+      break;
+    case "hard":
+      myQuestions = hardQuestions;
+  }
+  
   // Kick things off
   // buildQuiz();
 
