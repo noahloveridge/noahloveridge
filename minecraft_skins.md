@@ -7,7 +7,7 @@ This page has my minecraft skins I have made. All of these skins are free to dow
     <td>
       <a href="minecraft_skins/covblock_king.png" download>
         <img src="minecraft_skins/king_null_preview.png"><br>
-        King null (png, 420 bytes)
+        King Null (png, 420 bytes)
       </a>
     </td>
     <td>
@@ -17,12 +17,10 @@ This page has my minecraft skins I have made. All of these skins are free to dow
       </a>
     </td>
     <td>
-      <!--
-      <a href="minecraft_skins/covblock_king.png" download>
-        <img src="minecraft_skins/king_null_preview.png"><br>
-        King null (png, 420 bytes)
+      <a href="minecraft_skins/covblock_air_element.png" download>
+        <img src="minecraft_skins/air_element_preview.png"><br>
+        Air Element (png, 553 bytes )
       </a>
-      -->
     </td>
   </tr>  
 </table>
