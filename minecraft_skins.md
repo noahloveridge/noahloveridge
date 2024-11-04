@@ -22,5 +22,11 @@ This page has my minecraft skins I have made. All of these skins are free to dow
         Air Element (png, 553 bytes )
       </a>
     </td>
+    <td>
+      <a href="minecraft_skins/covblock_water_element.png" download>
+        <img src="minecraft_skins/water_element_preview.png"><br>
+        Water Element (png, 673 bytes )
+      </a>
+    </td>
   </tr>  
 </table>
