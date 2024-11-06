@@ -28,15 +28,13 @@ This page has my minecraft skins I have made. All of these skins are free to dow
         Water Element (png, 673 bytes )
       </a>
     </td>
- </td>
     <td>
       <a href="minecraft_skins/covblock_fire_element.png" download>
         <img src="minecraft_skins/fire_element_preview.png"><br>
         Fire Element (png, 528 bytes )
       </a>
     </td>
-    </tr>  
-
+    </tr>
   <tr>
     <td>
       <a href="minecraft_skins/covblock_spy.png" download>
@@ -61,8 +59,7 @@ This page has my minecraft skins I have made. All of these skins are free to dow
         <img src="minecraft_skins/king_null_preview.png"><br>
         King Null (png, 420 bytes)
       </a>-->
-    </td>
- </td>
+   </td>
     <td>
       <!--<a href="minecraft_skins/covblock_king.png" download>
         <img src="minecraft_skins/king_null_preview.png"><br>
@@ -70,5 +67,4 @@ This page has my minecraft skins I have made. All of these skins are free to dow
       </a>-->
     </td>
     </tr>  
-  
 </table>
