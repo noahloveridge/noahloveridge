@@ -39,9 +39,9 @@ This page has my minecraft skins I have made. All of these skins are free to dow
 
   <tr>
     <td>
-      <!--<a href="minecraft_skins/covblock_king.png" download>
-        <img src="minecraft_skins/king_null_preview.png"><br>
-        King Null (png, 420 bytes)
+      <a href="minecraft_skins/covblock_spy.png" download>
+        <img src="minecraft_skins/spy_preview.png"><br>
+        Spy (png, 1,435 bytes)
       </a>-->
     </td>
     <td>
