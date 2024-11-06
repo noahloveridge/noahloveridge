@@ -42,7 +42,7 @@ This page has my minecraft skins I have made. All of these skins are free to dow
       <a href="minecraft_skins/covblock_spy.png" download>
         <img src="minecraft_skins/spy_preview.png"><br>
         Spy (png, 1,435 bytes)
-      </a>-->
+      </a>
     </td>
     <td>
       <!--<a href="minecraft_skins/covblock_king.png" download>
